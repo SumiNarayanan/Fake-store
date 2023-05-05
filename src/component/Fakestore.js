@@ -23,7 +23,7 @@ const Fakestore = () => {
           return (
             <>
               <div className="card">
-                <img src={values.image} alt="image" />
+                <img src={values.image} alt="" />
                 <div className="content">
                   <h3>{values.title}</h3>
                   <h4>Price:{values.price}</h4>
